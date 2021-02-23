@@ -28,3 +28,21 @@ $ docker-compose exec db bash
 webコンテナ：ここでnginxを動かしている
 $ docker-compose exec web bash
 ```
+
+構築
+
+```
+$ docker-compose exec app bash
+```
+
+```
+bash# cp .env.example .env
+```
+
+```
+bash# composer install
+
+bash# npm install && npm run dev
+
+bash# php artisan key:generate
+```
