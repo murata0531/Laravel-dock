@@ -6,7 +6,7 @@
 $ docker-compose up -d --build
 ```
 
-コンテナ破棄
+コンテナとイメージ破棄
 
 ```
 $ docker-compose down --rmi all --volumes --remove-orphans
